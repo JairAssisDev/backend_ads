@@ -9,7 +9,6 @@ CORS(app)
 @app.route('/')
 def OK():
     return 'OK'
-
 projetos = [
     {
         "title":'Tratamento de Esgoto da Cidade',
