@@ -9,10 +9,7 @@ CORS(app)
 def OK():
     return 'OK'
 
-#total de vendas
-#lucro
-#distribuição
-#clientes atendidos
+
 @app.route('/consulta_decisiva', methods=['GET'])
 def consulta_decisiva():
     data = {"total_de_vendas": random.randint(0, 200000),
